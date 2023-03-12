@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/app.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <title>Results</title>
+    </head>
+    <body>
+        <div class="App">
+            <div class="navbar">
+                <div class="title">
+                    <i class="fa-solid fa-eye"></i>
+                    <span>Sentiment analyser</span>
+                </div>
+                <div class="menubar">
+                    <ul>
+                        <li><a href ="/">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="predictor">
+            <div class="result">
+                <span>Analysis results</span>
+                <hr></hr>
+                <div className="res_div">
+                    <h3></h3>
+                    <div className="prev">
+                        <span>
+                            <table tableborder="1">
+                                <tr>
+                                    <th>Response label</th>
+                                    <th>Feedback and suggestions</th>
+                                </tr>
+                                <tr>
+                                    <td>{{ result }}</td>
+                                    <td>{{ sugg }} </td>
+                                </tr>
+                            </table>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>

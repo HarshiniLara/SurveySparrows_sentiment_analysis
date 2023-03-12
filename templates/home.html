@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/app.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <title>Sentiment analyser</title>
+        <meta name="keywords" content="cutom file input, styling, label, cross-browser, accessible, input type file" />
+    </head>
+    <body>
+        <div class="App">
+            <div class="navbar">
+                <div class="title">
+                    <span>Sentiment analyser</span>
+                </div>
+            </div>
+            <div class="predictor">
+                <div class="instructions">
+                    <span>
+                        About
+                    </span>
+                    <hr></hr>
+                    <div class="abt">
+                        <p>
+                            Our survey analysis aims to explore the food and health habits of individuals 
+                            across a variety of demographics. 
+                        </p>
+                        <img src="https://media.istockphoto.com/id/1280587810/photo/healthy-eating-exercising-weight-and-blood-pressure-control.jpg?s=612x612&w=is&k=20&c=GPCXKWLxen13yUItILzLFgRbHEmNnvHCWsG8Qr2ejP8=" height="200px" width="200px" >
+                    </div>
+                    <div class="abt">
+                        <img src="https://kryptomoney.com/wp-content/uploads/2017/04/food-quality-3.png" height="200px" width="200px" >
+                        <p>
+                            We believe that by analyzing these habits, we 
+                            can uncover important insights about how people approach their diets and health, 
+                            and identify opportunities for improving public health outcomes..! Get started by posting your response...
+                        </p>
+                    </div>
+                </div>
+                <form action="/result" method="post">
+                    <div class="loadData">
+                        <span>Provide your response</span>
+                        <hr></hr>
+                        <span>What do you think about the quality of food that you order online? Do you consider it healthy? How was your experience consuming it?</span>
+                        <input type="text" name = "txt" id="txt"/>
+                        <button type="submit">Post reply</button>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </body>
+</html>

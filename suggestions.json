@@ -1,0 +1,28 @@
+{
+    "suggestions": [
+        {
+            "label": "positive",
+            "response": [
+                "Yes, you are right. The foods prepared by some restaurants are healthy and hygiene while there are some restaurants which do not follow the standards.",
+                "Yes, your opinion is atmost right some restaurants prepare foods by following the standards which there are some restaurants that do not.",
+                "Yes, It is good to order food by checking to the reviews of restaurants."
+            ]
+        },
+        {
+            "label": "negative",
+            "response": [
+                "Ya you are right though restaurants deliver food online we may not expect the quality of food to be as hygienic as it is prepared in houses",
+                "When we talk about food delivered online it is necessary to ensure hygiene and quality and most of the restaurants try to provide its best",
+                "Though the quality of food ordered online is not in good quality we must ensure hygiene but its consumption"
+            ]
+        },
+        {
+            "label": "neutral",
+            "response": [
+                "There are restaurants which aims in giving their best to deliver its customer while some do not.",
+                "Yes!! As said, quality and hygiene of food depends on restaurant ",
+                "Ordering food from known restaurants will ensure quality to some extend "
+            ]
+        }
+    ]
+}
